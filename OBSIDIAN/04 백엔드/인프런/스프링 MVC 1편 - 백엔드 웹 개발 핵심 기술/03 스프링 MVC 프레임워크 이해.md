@@ -1,0 +1,57 @@
+## 만든 MVC와 SpringMVC와 비교해보기
+-   [코드 정리한곳](https://blogshine.tistory.com/195)  
+- [ ]   그림으로 이해하기
+	- ![](https://api.transno.com/v3/document_image/4e1a50cd-364e-49df-9907-7da34b886fb8-10826299.jpg)  
+- [ ]   용어 정리  
+	-   handle -> 변환하기 전 URI 정보  
+	-   adapter -> handle를 알맞은 타입으로 변환시키기 위한 메소드  
+	-   ModelAndView -> View 이름, View를 렌더링할 때 필요한 Model 객체나 String(비즈니스 로직 처리한데이터)  
+	-   viewResolver -> View이름을 URI로 만들기 위한 메소드(렌더링하기 위함)  
+- [ ]   동작 정리  
+	-   1. 핸들러 조회  
+		-   핸들러 매핑을 통해 요청 URL에 매핑된 핸들러(컨트롤러)를 조회한다.  
+		-   url 뿐만 아니라 content-type 등 여러 데이터를 확인한다.  
+	-   2. 핸들러 어댑터 조회  
+		-   핸들러를 실행할 수 있는 핸들러 어댑터를 조회한다.  
+	-   3. 핸들러 어댑터 실행  
+		-   핸들러 어댑터를 실행한다.  
+	-   4. ModelAndView 반환  
+		-   핸들러 어댑터는 핸들러가 반환하는 정보를 ModelAndView로 변환해서 반환한다.  
+	-   5. viewResolver 호출  
+		-   viewResolver를 찾고 호출한다.  
+		-   JSP는 InternalResourceViewResolver가 자동으로 등록되어 사용된다.  
+	-   6. View 반환  
+		-   viewResolver는 view의 논리 이름을 물리 이름으로 바꾸고 렌더링 역할을 담당하는 View 객체를 반환한다.  
+		-   JSP는 InternalResourceView를 반한하며 이 내부에 forward() 로직이 있다.  
+	-   7. view 렌더링  
+		-   View를 통해 view를 렌더링한다.  
+
+## 용어 정리하기
+- [ ]   핸들러 매핑  
+	-   핸들러 매핑에서 이 컨트롤러를 찾을 수 있어야 한다.  
+	-   예) 스프링 빈의 이름으로 핸들러를 찾을 수 있는 핸들러 매핑이 필요하다.  
+- [ ]   핸들러 어댑터  
+	-   핸들러 매핑을 통해서 찾은 핸들러를 실행할 수 있는 핸들러 어댑터가 필요하다.  
+	-   예) Controller 인터페이스를 실행할 수 있는 핸들러 어댑터를 찾고 실행해야 한다.  
+- [ ]   뷰 리졸버  
+	-   랜더링을 할수 있도록 이름을 뷰형식으로 바꿔줌  
+
+## 기존에 mvc에서 애노테이션 기반으로 어떻게 넘어와야할까?  
+- [ ]   @ RequestMapping  
+	-   핸들러 매핑 + 핸들러 어댑터 구현한 것.  
+	-   URI 매칭 + HTTP Method  
+- [ ]   @ RestController  
+	-   [@ ResponseBody와의 차이점은?](https://highcode.tistory.com/24)  
+	-   HTTP 바디에 직접 입력 (뷰 X)  
+- [ ]   view resolver  
+	-   return에 객체가 있을떄랑 문자열만 있을 때랑 뭔 차이지?  
+	-   RestBody에서 return 차이?  
+- [ ]   @ Controller  
+	-   스프링이 자동으로 스프링 빈으로 등록한다.  
+	-   스프링 MVC에서 애너테이션 기반 컨트롤러로 인식한다.  
+- [ ]   ModelAndView  
+	-   모델과 뷰 정보를 담아 반환
+	- ![](https://api.transno.com/v3/document_image/6630d032-37cd-440a-b818-af1e792ad7f9-10826299.jpg)  
+- [ ]   @ RequestParam  
+	-   Http 요청 파라미터를 받을 수 있음  	
+-   각 ControllerV*을 클래스 단위가 아니라 메서드 단위로 적용하여 간단한게 나타냄
