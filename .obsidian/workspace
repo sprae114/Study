@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "600f128bf4b872ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "30e416548d3a3a60",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "03 자바/객체 지향 입문.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef520534a4e9cb8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bca112cade88addd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18d15e2a7c089e61",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ec76462f5ef83aca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fdfdaa4960fa6e06",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 188.5
+  },
+  "right": {
+    "id": "256c09519ac7e992",
+    "type": "split",
+    "children": [
+      {
+        "id": "b232e961dd413024",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51c83e4996dce40b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03 자바/객체 지향 입문.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb6cff3e897114ad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03 자바/객체 지향 입문.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b624ee9e1b775c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2d9594e90577d66c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03 자바/객체 지향 입문.md"
+              }
+            }
+          },
+          {
+            "id": "89f5ed820b8dae45",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268.5
+  },
+  "active": "30e416548d3a3a60",
+  "lastOpenFiles": [
+    "03 자바/자바 컨벤션.md",
+    "03 자바/우테코.md",
+    "03 자바/객체 지향 입문.md",
+    "알고리즘/전처리/코드 없는 프로그래밍.md",
+    "자료구조/01 Array.md",
+    "무제노트.md",
+    "인강/스프링 MVC 2편 - 백엔드 웹 개발 활용 기술/03 검증.md",
+    "인강/스프링 MVC 2편 - 백엔드 웹 개발 활용 기술/02 메시지, 국제화.md",
+    "Untitled mindmap.md",
+    "인강/스프링 MVC 2편 - 백엔드 웹 개발 활용 기술/무제노트 - 복사본 (3).md"
+  ]
+}

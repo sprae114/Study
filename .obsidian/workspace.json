@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "600f128bf4b872ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "989e4a158a614212",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9610bf4070df168",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 자바/자료구조 정리/02.참조형.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "50d4ac602833d2af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 자바/자료구조 정리/03.Array.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6fd6de2664f02337",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 자바/자료구조 정리/04.List.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef520534a4e9cb8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bca112cade88addd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18d15e2a7c089e61",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec76462f5ef83aca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fdfdaa4960fa6e06",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 219.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "256c09519ac7e992",
+    "type": "split",
+    "children": [
+      {
+        "id": "b232e961dd413024",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51c83e4996dce40b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03 자바/자료구조 정리/02.참조형.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb6cff3e897114ad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03 자바/자료구조 정리/02.참조형.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b624ee9e1b775c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2d9594e90577d66c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03 자바/자료구조 정리/02.참조형.md"
+              }
+            }
+          },
+          {
+            "id": "75307330d6d8c6a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 자바/패스트컴퍼니/5. 자바의 다양한 기능들.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89f5ed820b8dae45",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 251.5
+  },
+  "active": "e9610bf4070df168",
+  "lastOpenFiles": [
+    "03 자바/자료구조 정리/04.List.md",
+    "03 자바/자료구조 정리/03.Array.md",
+    "03 자바/우테코.md",
+    "03 자바/패스트컴퍼니/5. 자바의 다양한 기능들.md",
+    "03 자바/책/자바프로그래밍 100% 실전가이드/01 JAVA 정리.md",
+    "03 자바/책/자바프로그래밍 100% 실전가이드/03 변수와 함수.md",
+    "03 자바/개념정리/예외처리.md",
+    "03 자바/자료구조 정리/02.참조형.md",
+    "03 자바/자료구조 정리/01.기본형.md",
+    "03 자바/자료구조 정리/05.Set.md"
+  ]
+}
