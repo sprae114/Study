@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "256c09519ac7e992",
@@ -188,7 +187,7 @@
                   "src": "https://www.youtube.com/watch?v=sDXcLyrn6gU#t=159.73528581403352",
                   "hash": "#t=159.73528581403352"
                 },
-                "currentTime": null
+                "currentTime": 0
               }
             }
           }
