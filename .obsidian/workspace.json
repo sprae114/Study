@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "989e4a158a614212",
+        "id": "052915f04dc7a015",
         "type": "tabs",
         "children": [
           {
-            "id": "50d4ac602833d2af",
+            "id": "1398ac2c7226beb1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 자바/자료구조 정리/03.Array.md",
+                "file": "05 데이터베이스/정리/SQL 코테 정리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8fbe950662574acc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 데이터베이스/책/자바 ORM 표준 JPA 프로그래밍.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09a5ad2308dd2b79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 자바/자료구조 정리/02.참조형.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5,
+    "width": 284.5,
     "collapsed": true
   },
   "right": {
@@ -86,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 자바/자료구조 정리/03.Array.md",
+                "file": "05 데이터베이스/책/자바 ORM 표준 JPA 프로그래밍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 자바/자료구조 정리/03.Array.md",
+                "file": "05 데이터베이스/책/자바 ORM 표준 JPA 프로그래밍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 자바/자료구조 정리/03.Array.md"
+                "file": "05 데이터베이스/책/자바 ORM 표준 JPA 프로그래밍.md"
               }
             }
           },
@@ -149,25 +174,42 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "8f1630fd094f3fe2",
+            "type": "leaf",
+            "state": {
+              "type": "media-view",
+              "state": {
+                "info": {
+                  "host": 0,
+                  "id": "sDXcLyrn6gU",
+                  "iframe": "https://www.youtube.com/embed/sDXcLyrn6gU",
+                  "src": "https://www.youtube.com/watch?v=sDXcLyrn6gU#t=159.73528581403352",
+                  "hash": "#t=159.73528581403352"
+                },
+                "currentTime": null
+              }
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 457.5
   },
-  "active": "50d4ac602833d2af",
+  "active": "8fbe950662574acc",
   "lastOpenFiles": [
-    "03 자바/자료구조 정리/02.참조형.md",
+    "05 데이터베이스/정리/SQL 코테 정리.md",
+    "05 데이터베이스/책/혼자 공부하는 SQL.md",
+    "Pasted image 20221126013832.png",
+    "05 데이터베이스/인프런/스프링 DB 2편 - 데이터 접근 활용 기술/스프링 DB 2편 - 데이터 접근 활용 기술(정리중...).md",
+    "05 데이터베이스/인프런/스프링 DB 1편 - 데이터 접근 핵심 원리/스프링 DB 1편 - 데이터 접근 핵심 원리(정리중..).md",
+    "06 인프라/15단계로 배우는 도커와 쿠버네티스.md",
+    "우테코/우테코 공부할 내용.md",
     "03 자바/우테코.md",
-    "03 자바/자료구조 정리/05.Set.md",
-    "03 자바/자료구조 정리/03.Array.md",
-    "03 자바/자료구조 정리/04.List.md",
     "03 자바/개념정리/람다식.md",
-    "03 자바/패스트컴퍼니/5. 자바의 다양한 기능들.md",
-    "03 자바/책/자바프로그래밍 100% 실전가이드/01 JAVA 정리.md",
-    "03 자바/책/자바프로그래밍 100% 실전가이드/03 변수와 함수.md",
-    "03 자바/개념정리/예외처리.md"
+    "03 자바/개념정리/동적 파라미터화 [모던자바인액션].md"
   ]
 }

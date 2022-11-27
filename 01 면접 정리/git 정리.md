@@ -23,7 +23,7 @@
 	다음 변경(commit)을 기록할 때까지 변경분을 모아놓기 위해서 사용함.![[KakaoTalk_20221025_191207099.jpg]]
 
 ## 1.설정과 초기화
-
+[[10분 깃코톡] 🎲 와일더의 Git Commands - YouTube](https://www.youtube.com/watch?v=JsRD2AWxxFg)
 - 전역 사용자명/이메일 구성하기
 ```
 git config --global user.name “Your name”
