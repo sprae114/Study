@@ -1,5 +1,6 @@
 {
   "cssTheme": "Things",
   "baseFontSize": 20,
-  "accentColor": "#8563f2"
+  "accentColor": "#8871d6",
+  "interfaceFontFamily": "Arial Black"
 }

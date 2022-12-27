@@ -2,6 +2,7 @@
 [스트림에 대해 (velog.io)](https://velog.io/@zion9948/%EC%8A%A4%ED%8A%B8%EB%A6%BC%EC%97%90-%EB%8C%80%ED%95%B4#collect)
 [자바 - 스트림(Stream) (velog.io)](https://velog.io/@gmtmoney2357/%EC%9E%90%EB%B0%94-%EC%8A%A4%ED%8A%B8%EB%A6%BCStream)
 [Java 스트림 Stream (1) 총정리 | Eric Han's IT Blog (futurecreator.github.io)](https://futurecreator.github.io/2018/08/26/java-8-streams/)
+[[Java] Stream API 연습문제 풀이 (5/5) - MangKyu's Diary (tistory.com)](https://mangkyu.tistory.com/116)
 
 ## 배경지식
 
