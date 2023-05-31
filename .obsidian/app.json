@@ -4,5 +4,6 @@
   "readableLineLength": false,
   "strictLineBreaks": false,
   "spellcheck": false,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "alwaysUpdateLinks": true
 }

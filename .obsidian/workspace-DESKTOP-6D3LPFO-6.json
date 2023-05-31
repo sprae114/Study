@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "600f128bf4b872ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "4080dcf3e8316632",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30e416548d3a3a60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 면접 정리/자바/면접 질문정리 -  Java편(완료).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c57e5d211512a63d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 면접 정리/운영체제/컴퓨터 구조.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ab658063abc40f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 면접 정리/프로젝트 관련 질문.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef520534a4e9cb8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bca112cade88addd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18d15e2a7c089e61",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec76462f5ef83aca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fdfdaa4960fa6e06",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "2c6a1ee144b1ff75",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 420.5
+  },
+  "right": {
+    "id": "256c09519ac7e992",
+    "type": "split",
+    "children": [
+      {
+        "id": "b232e961dd413024",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51c83e4996dce40b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 면접 정리/프로젝트 관련 질문.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb6cff3e897114ad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01 면접 정리/프로젝트 관련 질문.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b624ee9e1b775c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2d9594e90577d66c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01 면접 정리/프로젝트 관련 질문.md"
+              }
+            }
+          },
+          {
+            "id": "89f5ed820b8dae45",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "7ab658063abc40f1",
+  "lastOpenFiles": [
+    "Pasted image 20230525175142.png",
+    "01 면접 정리/운영체제/면접 질문정리 - 운영체제편.md",
+    "01 면접 정리/자바/면접 질문정리 -  Java편(완료).md",
+    "01 면접 정리/스프링 면접질문.md",
+    "01 면접 정리/질문.md",
+    "01 면접 정리/네트워크/면접 질문정리 - 네트워크.md",
+    "Pasted image 20230525114509.png",
+    "Pasted image 20230525093213.png",
+    "Pasted image 20230524144457.png",
+    "Pasted image 20230524142842.png",
+    "Pasted image 20230524142130.png",
+    "기타/참고 사이트.md",
+    "01 면접 정리/서버/서버 면접 정리.md",
+    "01 면접 정리/기타/GitFlow 정리.md",
+    "01 면접 정리/기타/git.md",
+    "Pasted image 20230524122926.png",
+    "document_image/Pasted image 20230524122926.png",
+    "document_image/Pasted image 20230524122305.png",
+    "document_image/Pasted image 20230524121008.png",
+    "document_image/Pasted image 20230524111737.png",
+    "기타/git 정리.md",
+    "01 면접 정리/네트워크/모든 개발자를 위한 HTTP 웹 기본 지식/HTTP.md",
+    "01 면접 정리/네트워크/모든 개발자를 위한 HTTP 웹 기본 지식/인터넷 네트워크.md",
+    "01 면접 정리/운영체제/컴퓨터 구조.md",
+    "01 면접 정리/종합/면접을 위한 CS 전공지식 노트.md",
+    "01 면접 정리/시스템/가상 면접 사례로 배우는 대규모 시스템 설계 기초.md",
+    "01 면접 정리/시스템/대규모 서비스를 지탱하는 기술.md",
+    "01 면접 정리/시스템/가상메모리 배경지식 정리.md",
+    "03 자바/자바 컨벤션.md",
+    "03 자바/우테코.md",
+    "03 자바/객체 지향 입문.md",
+    "알고리즘/전처리/코드 없는 프로그래밍.md",
+    "자료구조/01 Array.md",
+    "무제노트.md",
+    "인강/스프링 MVC 2편 - 백엔드 웹 개발 활용 기술/03 검증.md",
+    "인강/스프링 MVC 2편 - 백엔드 웹 개발 활용 기술/02 메시지, 국제화.md"
+  ]
+}
