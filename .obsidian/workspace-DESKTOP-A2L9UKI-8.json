@@ -1,0 +1,260 @@
+{
+  "main": {
+    "id": "600f128bf4b872ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c0353619bcf96c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9238b08cad306b98",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타/자소서/계획.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a70ca600b1e2fe65",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타/무제 파일.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "9541250b1d0d2c72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타/자소서/백엔드/2307 티맥스헬스케어.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5da2394c786496ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타/자소서/인프라/2307 파수.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f87405fdef336b93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기타/자소서/계획.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef520534a4e9cb8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bca112cade88addd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18d15e2a7c089e61",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec76462f5ef83aca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fdfdaa4960fa6e06",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "f949cf711c4b2960",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 366.5
+  },
+  "right": {
+    "id": "256c09519ac7e992",
+    "type": "split",
+    "children": [
+      {
+        "id": "b232e961dd413024",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51c83e4996dce40b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "기타/자소서/계획.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb6cff3e897114ad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "기타/자소서/계획.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b624ee9e1b775c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2d9594e90577d66c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "기타/자소서/계획.md"
+              }
+            }
+          },
+          {
+            "id": "89f5ed820b8dae45",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 375.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "f87405fdef336b93",
+  "lastOpenFiles": [
+    "기타/자소서/백엔드/무제 파일.md",
+    "기타/자소서/계획.md",
+    "기타/자소서/백엔드/2307 티맥스헬스케어.md",
+    "기타/자소서/백엔드/2307 롯데e커머스.md",
+    "기타/자소서/템플릿/무제 파일.md",
+    "기타/템플릿/코드.md",
+    "기타/자소서/인프라/2307 파수.md",
+    "기타/자소서/인프라/2307 비즈테크아이.md",
+    "기타/자소서/백엔드/2307 다날.md",
+    "기타/무제 파일.md",
+    "Pasted image 20230710090459.png",
+    "06 서버/AWS로 시작하는 인프라 구축의 정석.md",
+    "기타/자소서/템플릿/무제 폴더",
+    "기타/자소서/템플릿",
+    "기타/자소서/인프라",
+    "기타/자소서/백엔드",
+    "기타/자소서/무제 파일.md",
+    "기타/자소서",
+    "06 서버/AWS로 시작하는 데브옵스.md",
+    "06 서버/aws로 구현하는 CL✖CD 배포 입문.md",
+    "06 서버/아마존 웹 서비스 AWS.md",
+    "06 서버/나중에 정리할 내용들.md",
+    "06 서버/서버 추가적 내용 정리.md",
+    "01 면접 정리/완료/Java 면접 정리(완료).md",
+    "07 CS지식/시스템/대규모 서비스를 지탱하는 기술.md",
+    "07 CS지식/시스템/가상메모리 배경지식 정리.md",
+    "07 CS지식/시스템/가상 면접 사례로 배우는 대규모 시스템 설계 기초.md",
+    "기타/면접준비.md",
+    "01 면접 정리/완료/1. 서버 면접 정리(완료).md",
+    "01 면접 정리/완료/네트워크(완료).md",
+    "05 DB/정리/SQL 코테 정리.md",
+    "05 DB/정리/SQL 코테 정리 1.md",
+    "Pasted image 20230706174851.png",
+    "Pasted image 20230705193055.png",
+    "Pasted image 20230705165300.png",
+    "document_image/Pasted image 20230610161337.png",
+    "document_image/Pasted image 20230630173245.png"
+  ]
+}

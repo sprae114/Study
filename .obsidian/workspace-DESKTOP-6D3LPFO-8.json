@@ -1,0 +1,279 @@
+{
+  "main": {
+    "id": "600f128bf4b872ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e365623e1e28cf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7788e9812cd7ebb5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 백엔드/패스트캠퍼스/스프링시큐리티/00. 시큐리티 이론지식.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "40bcde36fb4265ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 백엔드/패스트캠퍼스/스프링시큐리티/02. 기본 로그인 처리.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28e2dcb3cc1136af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 백엔드/패스트캠퍼스/스프링시큐리티/03. 로그인 직접 구현해보기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a1a46733fb81dc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 백엔드/패스트캠퍼스/스프링시큐리티/00. 시큐리티 이론지식.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fc33ac2f0db9644a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 DB/패스트컴퍼니/안정적인 서비스를 위한 스프링DATA와 Security - JPA 프로그래밍/01. JPA 설정.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d58f53d4b41a0e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 백엔드/패스트캠퍼스/스프링시큐리티/03. 로그인 직접 구현해보기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef520534a4e9cb8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "bca112cade88addd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18d15e2a7c089e61",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec76462f5ef83aca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fdfdaa4960fa6e06",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "f949cf711c4b2960",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 366.5
+  },
+  "right": {
+    "id": "256c09519ac7e992",
+    "type": "split",
+    "children": [
+      {
+        "id": "b232e961dd413024",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51c83e4996dce40b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "05 DB/패스트컴퍼니/안정적인 서비스를 위한 스프링DATA와 Security - JPA 프로그래밍/01. JPA 설정.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bb6cff3e897114ad",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "05 DB/패스트컴퍼니/안정적인 서비스를 위한 스프링DATA와 Security - JPA 프로그래밍/01. JPA 설정.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b624ee9e1b775c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2d9594e90577d66c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "05 DB/패스트컴퍼니/안정적인 서비스를 위한 스프링DATA와 Security - JPA 프로그래밍/01. JPA 설정.md"
+              }
+            }
+          },
+          {
+            "id": "89f5ed820b8dae45",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 428.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "18d15e2a7c089e61",
+  "lastOpenFiles": [
+    "05 DB/인프런/DB 1편/1. JDBC.md",
+    "04 백엔드/패스트캠퍼스/스프링시큐리티/06. DB와 연동하기.md",
+    "04 백엔드/패스트캠퍼스/스프링시큐리티/05. 두개의 SpringSecurity.md",
+    "04 백엔드/정리/멀티 모듈 정리.md",
+    "05 DB/패스트컴퍼니/안정적인 서비스를 위한 스프링DATA와 Security - JPA 프로그래밍/01. JPA 설정.md",
+    "05 DB/인프런/DB 1편/2. 커넥션풀과 데이터소스.md",
+    "04 백엔드/패스트캠퍼스/스프링시큐리티/템플릿.md",
+    "Pasted image 20230828084640.png",
+    "04 백엔드/패스트캠퍼스/스프링시큐리티/00. 시큐리티 이론지식.md",
+    "04 백엔드/패스트캠퍼스/스프링시큐리티/01. 스프링 시큐리티 필터.md",
+    "04 백엔드/패스트캠퍼스/스프링시큐리티/02. 기본 로그인 처리.md",
+    "04 백엔드/패스트캠퍼스/스프링시큐리티/03. 로그인 직접 구현해보기.md",
+    "04 백엔드/패스트캠퍼스/스프링시큐리티/04. Basic 토큰.md",
+    "Pasted image 20230828070001.png",
+    "Pasted image 20230828065720.png",
+    "04 백엔드/패스트캠퍼스/스프링시큐리티/시큐리티 흐름 정리.md",
+    "Pasted image 20230827204236.png",
+    "Pasted image 20230827204226.png",
+    "Pasted image 20230827204157.png",
+    "Pasted image 20230827193158.png",
+    "Pasted image 20230827193002.png",
+    "Pasted image 20230827143607.png",
+    "Pasted image 20230826053941.png",
+    "무제 파일 2.md",
+    "무제 파일 1.md",
+    "04 백엔드/정리/트랜잭션.md",
+    "04 백엔드/정리/테스트 코드 작성 방법 정리.md",
+    "04 백엔드/정리/보안 개념정리.md",
+    "04 백엔드/정리/스프링 시큐리티.md",
+    "04 백엔드/정리/궁금한거 정리.md",
+    "04 백엔드/패스트캠퍼스/스프링시큐리티/JWT로 인증방식 바꾸기.md",
+    "04 백엔드/정리/스프링 시큐리티 구현하기.md",
+    "04 백엔드/정리/스프링 시큐리티 구현.md",
+    "04 백엔드/패스트캠퍼스/게시판 서비스.md",
+    "기타/템플릿/코드.md",
+    "기타/미분류/제텔카스텐 템플릿.md",
+    "05 DB/Real MySQL/ㅇ",
+    "05 DB/Real MySQL",
+    "05 DB/패스트컴퍼니/레디스",
+    "06 서버/정리",
+    "06 서버/책",
+    "03 자바/JAVA 언어로 배우는 디자인 패턴 입문 쉽게 배우는 GoF의 23가지 디자인 패턴",
+    "기타/자소서/템플릿/무제 폴더",
+    "기타/자소서/템플릿",
+    "기타/자소서/인프라",
+    "기타/자소서/백엔드"
+  ]
+}

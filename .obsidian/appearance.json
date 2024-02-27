@@ -1,6 +1,8 @@
 {
   "cssTheme": "Things",
-  "baseFontSize": 21,
-  "accentColor": "#8871d6",
-  "interfaceFontFamily": "Arial Black"
+  "baseFontSize": 26,
+  "accentColor": "#aebce5",
+  "interfaceFontFamily": "Arial Black",
+  "theme": "obsidian",
+  "monospaceFontFamily": ""
 }

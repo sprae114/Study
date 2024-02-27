@@ -1,0 +1,2 @@
+[실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발 - 1. 프로젝트 환경설정 | melodist Dev Records](https://melodist.github.io/docs/Spring/JPA1/SpringJPA1_1)
+[실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화 | melodist Dev Records](https://melodist.github.io/docs/Spring/JPA2)

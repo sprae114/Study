@@ -1,0 +1,1 @@
+[(27) [10분 테코톡] 🙋‍♂️로비의 SQL 인젝션 - YouTube](https://www.youtube.com/watch?v=qzas_-u4Nxk&list=PLgXGHBqgT2TvpJ_p9L_yZKPifgdBOzdVH&index=335)
