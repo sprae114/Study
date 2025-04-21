@@ -1,0 +1,205 @@
+{
+  "recentFiles": [
+    {
+      "basename": "자소서",
+      "path": "기타/자소서/자소서.md"
+    },
+    {
+      "basename": "계획",
+      "path": "기타/자소서/계획.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "기타/자소서/템플릿/무제 파일.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "01. DB 연결 설정",
+      "path": "05 DB/02.데이터 접근기술/데이터 접근 기술/01. DB 연결 설정.md"
+    },
+    {
+      "basename": "쿼리 명령어",
+      "path": "05 DB/MongoDB/쿼리 명령어.md"
+    },
+    {
+      "basename": "8. 도커컴포즈",
+      "path": "06 서버/도커/8. 도커컴포즈.md"
+    },
+    {
+      "basename": "Java 면접 정리(완료)",
+      "path": "01 면접 정리/완료/Java 면접 정리(완료).md"
+    },
+    {
+      "basename": "1. Vue 기초",
+      "path": "08 프론트엔드/4. vue/1. Vue 기초.md"
+    },
+    {
+      "basename": "3. Vue 라우터",
+      "path": "08 프론트엔드/4. vue/3. Vue 라우터.md"
+    },
+    {
+      "basename": "optional",
+      "path": "04 백엔드/정리/기타/optional.md"
+    },
+    {
+      "basename": "채팅 기능 구현",
+      "path": "04 백엔드/정리/기능구현/채팅 기능 구현.md"
+    },
+    {
+      "basename": "4. Vue 라이브러리",
+      "path": "08 프론트엔드/4. vue/4. Vue 라이브러리.md"
+    },
+    {
+      "basename": "2. Vue 기능",
+      "path": "08 프론트엔드/4. vue/2. Vue 기능.md"
+    },
+    {
+      "basename": "6. JS 폼테크",
+      "path": "08 프론트엔드/3. JS WEB/6. JS 폼테크.md"
+    },
+    {
+      "basename": "5. JS 기능",
+      "path": "08 프론트엔드/3. JS WEB/5. JS 기능.md"
+    },
+    {
+      "basename": "3. JS 셀렉터",
+      "path": "08 프론트엔드/3. JS WEB/3. JS 셀렉터.md"
+    },
+    {
+      "basename": "1. JS 원칙",
+      "path": "08 프론트엔드/3. JS WEB/1. JS 원칙.md"
+    },
+    {
+      "basename": "2. JS 문법",
+      "path": "08 프론트엔드/3. JS WEB/2. JS 문법.md"
+    },
+    {
+      "basename": "무제",
+      "path": "기타/무제.md"
+    },
+    {
+      "basename": "ajax",
+      "path": "04 백엔드/스프링/02. controller/ajax.md"
+    },
+    {
+      "basename": "05. 스프링과 ajax",
+      "path": "04 백엔드/스프링/02. controller/05. 스프링과 ajax.md"
+    },
+    {
+      "basename": "1. 기초",
+      "path": "08 프론트엔드/5. vuetify/1. 기초.md"
+    },
+    {
+      "basename": "7. JS Ajax",
+      "path": "08 프론트엔드/3. JS WEB/7. JS Ajax.md"
+    },
+    {
+      "basename": "2. String 복습",
+      "path": "03 자바/자료구조/정리/자료구조 코드 정리/2. String 복습.md"
+    },
+    {
+      "basename": "게시판 서비스",
+      "path": "04 백엔드/정리/기능구현/게시판 서비스.md"
+    },
+    {
+      "basename": "인증 메일 구현",
+      "path": "04 백엔드/정리/기능구현/인증 메일 구현.md"
+    },
+    {
+      "basename": "조회수 기능",
+      "path": "04 백엔드/정리/기능구현/조회수 기능.md"
+    },
+    {
+      "basename": "AWS s3 구현",
+      "path": "04 백엔드/정리/기능구현/AWS s3 구현.md"
+    },
+    {
+      "basename": "(미정리) 로그인 처리",
+      "path": "04 백엔드/스프링시큐리티/정리/인증확인/(미정리) 로그인 처리.md"
+    },
+    {
+      "basename": "05. Css 레이아웃",
+      "path": "08 프론트엔드/1. html, css/05. Css 레이아웃.md"
+    },
+    {
+      "basename": "01. 이론",
+      "path": "08 프론트엔드/nginx/01. 이론.md"
+    },
+    {
+      "basename": "2. 운영체제(완료)",
+      "path": "01 면접 정리/완료/2. 운영체제(완료).md"
+    },
+    {
+      "basename": "3. 프로젝트(완료)",
+      "path": "01 면접 정리/완료/3. 프로젝트(완료).md"
+    },
+    {
+      "basename": "무제 18",
+      "path": "08 프론트엔드/코딩애플/1. html, css/2. 중급 모듈/무제 18.md"
+    },
+    {
+      "basename": "프론트 엔드 로드 밸런싱",
+      "path": "08 프론트엔드/정리/프론트 엔드 로드 밸런싱.md"
+    },
+    {
+      "basename": "무제",
+      "path": "08 프론트엔드/정리/무제.md"
+    },
+    {
+      "basename": "table",
+      "path": "08 프론트엔드/5. vuetify/table.md"
+    },
+    {
+      "basename": "grid",
+      "path": "08 프론트엔드/5. vuetify/grid.md"
+    },
+    {
+      "basename": "5. vue 기타",
+      "path": "08 프론트엔드/4. vue/5. vue 기타.md"
+    },
+    {
+      "basename": "(미정리)",
+      "path": "04 백엔드/스프링/09. 테스트/정리/(미정리).md"
+    },
+    {
+      "basename": "(미정리) mock",
+      "path": "04 백엔드/스프링/09. 테스트/정리/(미정리) mock.md"
+    },
+    {
+      "basename": "01. HTTP 응답 (실무)",
+      "path": "04 백엔드/스프링/02. controller/01. HTTP 응답 (실무).md"
+    },
+    {
+      "basename": "3. Mockito 정리",
+      "path": "04 백엔드/스프링/09. 테스트/3. Mockito 정리.md"
+    },
+    {
+      "basename": "(미정리) 로그인 여부 확인",
+      "path": "04 백엔드/스프링시큐리티/정리/인증확인/(미정리) 로그인 여부 확인.md"
+    },
+    {
+      "basename": "OAUTH 흐름",
+      "path": "04 백엔드/스프링시큐리티/정리/OAUTH 흐름.md"
+    },
+    {
+      "basename": "(미정리) 로그인 하는 3가지 방법",
+      "path": "04 백엔드/스프링시큐리티/정리/인증확인/(미정리) 로그인 하는 3가지 방법.md"
+    },
+    {
+      "basename": "JWT",
+      "path": "04 백엔드/스프링시큐리티/정리/JWT.md"
+    },
+    {
+      "basename": "(미정리) 보안 설정",
+      "path": "04 백엔드/스프링시큐리티/정리/인증확인/(미정리) 보안 설정.md"
+    },
+    {
+      "basename": "(미정리) 로그인 방식",
+      "path": "04 백엔드/스프링/08. 로그인 처리/jwt/(미정리) 로그인 방식.md"
+    }
+  ],
+  "omittedPaths": []
+}

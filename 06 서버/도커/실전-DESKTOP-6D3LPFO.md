@@ -1,0 +1,526 @@
+# 각각 도커화하기
+## frontend
+
+### vue
+1) Dockerfile 작성하기
+```dockerfile
+# Docker 이미지를 구성하기 위해 베이스 이미지로 Node.js의 최신 버전을 사용
+FROM node:latest
+
+# 컨테이너 내부에서 /app 디렉토리를 작업 디렉토리로 설정
+WORKDIR /app
+
+# package.json 및 package-lock.json(있는 경우) 파일을 현재 디렉토리(작업 디렉토리 /app)로 복사 및 설치
+COPY package*.json .
+
+RUN npm install
+
+# Dockerfile이 위치한 디렉토리의 모든 파일과 디렉토리를 컨테이너의 작업 디렉토리(/app)로 복사
+COPY . .
+
+# 프로젝트를 빌드하기 위해 package.json에 정의된 build 스크립트를 실행
+RUN npm run build
+
+# http 서버를 전역으로 설치 후 빌드된 정적 파일을 호스팅
+RUN npm install -g http-server
+
+# 컨테이너의 3000 포트를 노출
+EXPOSE 3000
+
+CMD [ "http-server", "dist" ]
+```
+
+2) 이미지 만들기
+- 작업 디렉터리 이동
+```bash
+cd vuetify-project
+```
+
+- 이미지 만들기
+```BASH
+docker build -t "vue-docker-start" .      
+```
+
+3) 컨테이너 실행
+```bash
+docker run -d -p 3000:3000 --name "vue-docker-container" "vue-docker-start"  
+```
+[localhost:3000](http://localhost:3000/) 로 접속 가능한지 확인해보자
+docker build -t trading-fronend .  
+### react
+1)  Dockerfile 작성
+```dockerfile
+# 1. Node.js 기반 이미지 사용
+FROM node:14 AS build
+
+# 2. 작업 디렉토리 설정
+WORKDIR /app
+
+# 3. 작업 디렉토리 복사
+COPY package.json .
+
+# 4. 의존성 설치
+RUN npm install
+
+# 5. 소스 코드 복사
+COPY . .
+
+# 6. 포트 3000 명시
+EXPOSE 3000
+
+# 10. 실행
+CMD ["npm", "start"]
+```
+
+2) Docker 이미지 빌드
+```bash
+docker build -t goals-react .
+```
+
+3) Docker 컨테이너 실행
+```bash
+docker run --name goals-frontend -p 3000:3000 -it goals-react
+```
+**`-it`를 넣어야함.**
+
+[localhost:3000](http://localhost:3000/) 로 접속 가능한지 확인해보자
+
+
+## backend
+### Spring
+코드 : 01first_demo/demo
+[[Docker] Dockerfile을 이용한 Spring Boot App 환경 구성 및 실행방법 — Contributor9](https://adjh54.tistory.com/420#2)
+
+1) gradle 설정 및 jar만들기
+[Java 빌드 시 생성되는 Plain Archive (-plain.jar) 파일 제거](https://kimalarm.tistory.com/89)
+[[Docker] 도커 사용법 정리](https://m.blog.naver.com/sosow0212/222883657872)
+![[Pasted image 20241205092001.png]]
+
+- gradle에 추가하기
+```gradle
+jar {  
+    enabled = false  
+}
+```
+
+
+2) Dockerfile 작성하기
+```dockerfile
+# 1. 베이스 이미지 설정  
+FROM openjdk:17-jdk-slim  
+  
+# 2. 작업 디렉토리 설정  
+WORKDIR /app  
+  
+# 3. JAR 파일 복사  
+COPY build/libs/*.jar app.jar  
+  
+# 4. 애플리케이션 실행  
+CMD ["java", "-jar", "app.jar"]  
+  
+# 5. 컨테이너가 수신할 포트 지정  
+EXPOSE 8080
+```
+
+2) 이미지 만들기
+- 작업 디렉터리 이동
+```bash
+cd demo
+```
+
+- 이미지 만들기
+```BASH
+docker build -t spring-dockerstart . 
+```
+
+3) 컨테이너 실행
+```bash
+docker run --name docker-app --rm -p 8081:8080 -d spring-dockerstart    
+```
+
+[localhost:8081](http://localhost:8081/) 로 접속 가능한지 확인해보자
+docker build -t trading-backend . 
+docker run --name docker-app --rm -p 8081:8080 -d trading-backend  
+### node.js
+코드 : 01first_demo/first-demo-starting-setup
+
+1) Dockerfile 작성하기
+```dockerfile
+# Node.js 14 버전을 기반 이미지로 사용합니다.
+FROM node:14  
+
+# 컨테이너 내에서 작업할 디렉토리를 /app으로 설정합니다.
+WORKDIR /app  
+
+# 로컬의 package.json 파일을 컨테이너의 /app 디렉토리로 복사합니다.
+COPY package.json .  
+
+# package.json에 정의된 의존성을 설치합니다.
+RUN npm install  
+
+# 현재 디렉토리(소스 코드 포함)의 모든 파일을 컨테이너의 /app 디렉토리로 복사합니다.
+COPY . .  
+
+# 컨테이너가 80 포트를 사용할 수 있도록 개방합니다.
+EXPOSE 80  
+
+# 컨테이너가 시작될 때 실행할 명령어를 지정합니다. 여기서는 Node.js로 app.mjs 파일을 실행합니다.
+CMD [ "node", "app.mjs" ]
+```
+
+2) 이미지 만들기
+- 작업 디렉터리 이동
+```bash
+cd first-demo-starting-setup
+```
+
+- 이미지 만들기
+```BASH
+docker build -t dockerstart . 
+```
+
+3) 컨테이너 실행
+```bash
+docker run --name docker-app --rm -p 3001:3000 -d dockerstart      
+```
+
+[localhost:3001](http://localhost:3001/) 로 접속 가능한지 확인해보자
+
+## DB
+### MySQL
+1) MySQL 도커 이미지 다운로드
+```bash
+docker pull mysql:latest
+```
+
+
+2) MySQL 컨테이너 실행
+```bash
+docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d -p 3306:3306 mysql:latest
+```
+- `--name my-mysql`: 컨테이너의 이름을 `my-mysql`로 설정합니다.
+- `-e MYSQL_ROOT_PASSWORD=my-secret-pw`: 환경 변수로 MySQL의 root 사용자 비밀번호를 설정합니다. 여기서는 `my-secret-pw`로 설정했습니다.
+- `-d`: 컨테이너를 백그라운드에서 실행합니다 (detached mode).
+- `-p 3306:3306`: 호스트의 3306 포트를 컨테이너의 3306 포트에 매핑합니다. MySQL의 기본 포트입니다.
+- `mysql:latest`: 사용할 이미지 이름입니다. 최신 MySQL 이미지를 지정합니다.
+
+
+1) terminel로 접속
+```bash
+docker exec -it my-mysql mysql -u root -p
+```
+- `-it`: 상호작용 모드로 컨테이너에 접속합니다.
+- `my-mysql`: 접속할 컨테이너 이름입니다.
+- `mysql -u root -p`: MySQL 클라이언트를 실행하며, root 사용자로 로그인하겠다는 의미입니다. 비밀번호를 입력하라는 메시지가 나타납니다.
+
+
+2) 데이터베이스 및 테이블 생성
+```sql
+CREATE DATABASE my_database;
+USE my_database;
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100)
+);
+```
+
+
+3) 데이터 삽입
+```sql
+INSERT INTO users (name, email) VALUES 
+('Charlie', 'charlie@example.com'),
+('David', 'david@example.com'),
+('Eve', 'eve@example.com');
+```
+
+
+4) 데이터 확인
+```sql
+SELECT * FROM users;
+```
+
+### Mongo
+5) MongoDB Docker 이미지 다운로드
+```bash
+docker pull mongo
+```
+
+
+6) Docker 컨테이너 실행
+이제 MongoDB 컨테이너를 실행합니다. 기본적으로 MongoDB는 27017 포트를 사용합니다. 
+```bash
+docker run --name mongodb -d -p 27017:27017 -v mongodb_data:/data/db mongo
+```
+- `--name mongodb`: 컨테이너의 이름을 `mongodb`로 설정합니다.
+- `-d`: 컨테이너를 백그라운드에서 실행합니다.
+- `-p 27017:27017`: 호스트의 27017 포트를 컨테이너의 27017 포트에 매핑합니다. (호스트와 연결할 수 있게)
+- `-v mongodb_data:/data/db`: 데이터 저장소를 위한 도커 볼륨을 설정합니다. 컨테이너가 종료되더라도 데이터가 유지되도록 합니다.
+- `mongo`: 사용할 Docker 이미지를 지정합니다.
+
+
+7) MongoDB에 접속하기
+MongoDB 클라이언트를 사용하여 MongoDB에 접속할 수 있습니다. 
+```bash
+docker exec -it mongodb mongo
+```
+
+
+8) MongoDB 데이터베이스 사용하기
+MongoDB 셸에 접속한 후, 원하는 데이터베이스를 생성하거나 기존 데이터베이스를 사용할 수 있습니다:
+```bash
+use myDatabase
+```
+
+
+# 도커화 : 네트워크 사용X
+## DB
+코드 : 04muti/multi-01-starting-setup-local
+![[Pasted image 20241209152559.png]]
+
+9) DB
+- Docker 컨테이너 실행
+이제 MongoDB 컨테이너를 실행합니다. 기본적으로 MongoDB는 27017 포트를 사용합니다. 
+```bash
+docker run --name mongodb -d -p 27017:27017 -v mongodb_data:/data/db mongo
+```
+
+10) backend
+```shell
+# 백엔드 폴더로 이동
+cd backend
+
+# 종속성 설치
+npm install
+
+# 실행
+node app.js
+```
+
+11) frontend
+새로운 터미널로 시작
+```shell
+# 프론트엔드 폴더로 이동
+cd frontend
+
+# 종속성 설치
+npm install
+
+# 실행
+npm start
+```
+
+
+## backend + DB
+코드 : 04muti/multi-02-makeDockerMongo+nodeJs
+![[Pasted image 20241209152613.png]]
+
+12) DB
+- Docker 컨테이너 실행
+이제 MongoDB 컨테이너를 실행합니다. 기본적으로 MongoDB는 27017 포트를 사용합니다. 
+```bash
+docker run --name mongodb -d -p 27017:27017 -v mongodb_data:/data/db mongo
+```
+
+13) backend
+- app.js에서 mongo 연결 URI를 `127.0.0.1:27017` -> `host.docker.internal:27017`로 변경
+- dockfile 작성 및 실행 (위의 node.js 참고 포트는 80으로 바꾸기)
+```bash
+docker run --name docker-app --rm -p 80:80 -d dockerstart      
+```
+
+14) frontend
+새로운 터미널로 시작
+```shell
+# 프론트엔드 폴더로 이동
+cd frontend
+
+# 종속성 설치
+npm install
+
+# 실행
+npm start
+```
+
+## frontend + backend + DB
+코드 : 04muti/multi-03-allContainer
+![[Pasted image 20241210104851.png]]
+
+15) DB
+- Docker 컨테이너 실행
+이제 MongoDB 컨테이너를 실행합니다. 기본적으로 MongoDB는 27017 포트를 사용합니다. 
+```bash
+docker run --name mongodb -d -p 27017:27017 -v mongodb_data:/data/db mongo
+```
+
+16) backend
+- app.js에서 mongo 연결 URI를 `127.0.0.1:27017` -> `host.docker.internal:27017`로 변경
+- dockfile 작성 및 실행 (위의 node.js 참고하기 포트는 80으로 바꾸기)
+```bash
+cd backend
+docker build -t goals-backend .
+docker run --name goals-backend-container --rm -p 80:80 -d goals-backend
+```
+
+
+17) frontend
+- dockfile 작성 및 실행 (위의 react 참고)
+
+
+# 도커 : 네트워크 사용 O
+## 스크립트(컴포즈) 사용 X
+코드 : 04muti/multi-03-allContainer
+![[Pasted image 20241210153531.png]]
+
+18) 네트워크 생성
+```BASH
+docker network create goals-net
+```
+
+
+19) DB
+```BASH
+docker run --name mongo-goals -d --network goals-net -v mongodb_data:/data/db mongo
+```
+`-p`포트 대신 `--network`네트워크로 컨테이너 연결함.
+`-v`를 사용하여 컨테이너 내부에 데이터베이스 파일을 저장함.
+
+20) Backend
+- 코드 수정
+백엔드에서 DB연결 URI 변경.
+```
+mongodb://[--name으로 지정한 이름]/[DB생성이름]
+```
+`mongodb://172.20.0.2/swfavorites` -> 
+`mongodb://mongo-goals/course-goals` or `mongodb://mongo-goals:27017/course-goals`
+(**--name으로 지정한 이름**, 대소문자 상관X) 
+
+- 도커화
+dockfile 작성 후 실행하기
+```bash
+cd backend
+docker build -t goals-backend .
+docker run --name goals-backend-container --rm -p 80:80 --network goals-net -d goals-backend
+```
+`-p`포트 대신 `--network`네트워크로 컨테이너 연결함.
+
+
+21) frontend
+react는 **컨테이너에서 실행되지 않고 브라우저에서 실행**됨. 그래서 `localhost` 변경하지 않고 그대로 사용함.
+
+dockfile 작성 후 실행하기
+```bash
+cd backend
+docker build -t goals-frontend .
+docker run --name goals-frontend-container --rm -p 3000:3000 -it goals-frontend
+```
+
+
+## 스크립트(컴포즈) 사용 O
+### react + node.js + mongo
+코드 : 05compose/compose-01-finished
+![[Pasted image 20241210171514.png]]
+
+22) dockerfile작성
+- frontend 및 backend 각각 작성하기
+
+23) docker-compose.yml 작성
+```yaml
+version: "3.8"  
+services:  
+  mongodb:  
+    image: 'mongo'  
+    volumes:   
+      - data:/data/db  
+    # environment:   
+    #   MONGO_INITDB_ROOT_USERNAME: max  
+    #   MONGO_INITDB_ROOT_PASSWORD: secret      
+    # - MONGO_INITDB_ROOT_USERNAME=max    
+    env_file:   
+      - ./env/mongo.env  
+
+  backend:  
+    build: ./backend  
+    ports:  
+      - '80:80'  
+    volumes:   
+      - logs:/app/logs  
+      - ./backend:/app  
+      - /app/node_modules  
+    env_file:   
+      - ./env/backend.env  
+    depends_on:  
+      - mongodb  
+
+  frontend:  
+    build: ./frontend  
+    ports:   
+      - '3000:3000'  
+    volumes:   
+      - ./frontend/src:/app/src  
+    stdin_open: true  
+    tty: true  
+    depends_on:   
+      - backend  
+  
+volumes:   
+  data:  
+  logs:
+```
+
+24) 서비스 실행하기
+`docker-compose up` 
+
+25) 서비스 중단하기
+`docker-compose down`
+
+### Spring + mysql
+26) dockerfile 작성
+```dockerfile
+# 1. 베이스 이미지 설정  
+FROM openjdk:17-jdk-slim  
+  
+# 2. 작업 디렉토리 설정  
+WORKDIR /app  
+  
+# 3. JAR 파일 복사  
+COPY build/libs/*.jar app.jar  
+  
+# 4. 애플리케이션 실행  
+CMD ["java", "-jar", "app.jar"]  
+  
+# 5. 컨테이너가 수신할 포트 지정  
+EXPOSE 8080
+```
+
+
+27) docker-compose 작성
+```yml
+version: '3.8'  
+  
+services:  
+  schoolDB:  
+    image: mysql:latest  
+    environment:  
+      MYSQL_ROOT_PASSWORD: my-secret-pw # 루트 비밀번호  
+      MYSQL_DATABASE: schoolDB # 생성할 데이터베이스 이름  
+      MYSQL_USER: user # 추가 사용자  
+      MYSQL_PASSWORD: user-secret-pw # 추가 사용자 비밀번호  
+  
+  backend:  
+    build: ./backend # backend 이미지 만들기  
+    depends_on:  
+      - schoolDB # schoolDB 서비스가 먼저 시작되도록 설정  
+    environment:  
+      SPRING_APPLICATION_NAME: school  
+      SPRING_DATASOURCE_URL: jdbc:mysql://schoolDB/schoolDB # 수정된 MySQL 서비스 이름  
+      SPRING_DATASOURCE_USERNAME: root  
+      SPRING_DATASOURCE_PASSWORD: my-secret-pw  
+      SPRING_JPA_HIBERNATE_DDL_AUTO: create-drop  
+      SPRING_JPA_SHOW_SQL: true  
+    ports:  
+      - "8080:8080" # Spring Boot 포트 매핑
+```
+
+28) 실행
+`docker-compose up`

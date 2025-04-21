@@ -1,1 +1,0 @@
-[OAuth 2.0 개념과 동작원리 (hudi.blog)](https://hudi.blog/oauth-2.0/)

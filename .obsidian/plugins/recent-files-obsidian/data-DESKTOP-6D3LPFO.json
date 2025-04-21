@@ -1,0 +1,205 @@
+{
+  "recentFiles": [
+    {
+      "basename": "실전",
+      "path": "06 서버/도커/실전.md"
+    },
+    {
+      "basename": "변수",
+      "path": "06 서버/도커/변수.md"
+    },
+    {
+      "basename": "1. 도커 이론",
+      "path": "06 서버/도커/1. 도커 이론.md"
+    },
+    {
+      "basename": "(미정리) 로그인 여부 확인",
+      "path": "04 백엔드/스프링시큐리티/정리/인증확인/(미정리) 로그인 여부 확인.md"
+    },
+    {
+      "basename": "(미정리) 로그인 처리",
+      "path": "04 백엔드/스프링시큐리티/정리/인증확인/(미정리) 로그인 처리.md"
+    },
+    {
+      "basename": "(미정리) 로그인 하는 3가지 방법",
+      "path": "04 백엔드/스프링시큐리티/정리/인증확인/(미정리) 로그인 하는 3가지 방법.md"
+    },
+    {
+      "basename": "(미정리) 보안 설정",
+      "path": "04 백엔드/스프링시큐리티/정리/인증확인/(미정리) 보안 설정.md"
+    },
+    {
+      "basename": "CH05 PasswordEncoders를 이용한 비밀번호 관리",
+      "path": "04 백엔드/스프링시큐리티/유데미/CH05 PasswordEncoders를 이용한 비밀번호 관리.md"
+    },
+    {
+      "basename": "CH03 InMemoryUserDetailsManager를 사용한 사용자 정의 및 관리",
+      "path": "04 백엔드/스프링시큐리티/유데미/CH03 InMemoryUserDetailsManager를 사용한 사용자 정의 및 관리.md"
+    },
+    {
+      "basename": "3. Mockito 정리",
+      "path": "04 백엔드/스프링/09. 테스트/3. Mockito 정리.md"
+    },
+    {
+      "basename": "1-1. 테스트 개념 정리",
+      "path": "04 백엔드/스프링/09. 테스트/1-1. 테스트 개념 정리.md"
+    },
+    {
+      "basename": "올리브영",
+      "path": "올리브영.md"
+    },
+    {
+      "basename": "무제 파일",
+      "path": "기타/자소서/템플릿/무제 파일.md"
+    },
+    {
+      "basename": "자소서 템플릿",
+      "path": "기타/자소서/자소서 템플릿.md"
+    },
+    {
+      "basename": "삼성",
+      "path": "기타/자소서/완료된 자소서/삼성.md"
+    },
+    {
+      "basename": "코드",
+      "path": "기타/템플릿/코드.md"
+    },
+    {
+      "basename": "우테코",
+      "path": "기타/자소서/완료된 자소서/우테코.md"
+    },
+    {
+      "basename": "현대차",
+      "path": "기타/자소서/완료된 자소서/현대차.md"
+    },
+    {
+      "basename": "현대모비스",
+      "path": "기타/자소서/완료된 자소서/현대모비스.md"
+    },
+    {
+      "basename": "만도 헬라",
+      "path": "기타/자소서/완료된 자소서/만도 헬라.md"
+    },
+    {
+      "basename": "자소서",
+      "path": "기타/자소서/자소서.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "계획",
+      "path": "기타/자소서/계획.md"
+    },
+    {
+      "basename": "01. DB 연결 설정",
+      "path": "05 DB/02.데이터 접근기술/데이터 접근 기술/01. DB 연결 설정.md"
+    },
+    {
+      "basename": "쿼리 명령어",
+      "path": "05 DB/MongoDB/쿼리 명령어.md"
+    },
+    {
+      "basename": "8. 도커컴포즈",
+      "path": "06 서버/도커/8. 도커컴포즈.md"
+    },
+    {
+      "basename": "Java 면접 정리(완료)",
+      "path": "01 면접 정리/완료/Java 면접 정리(완료).md"
+    },
+    {
+      "basename": "1. Vue 기초",
+      "path": "08 프론트엔드/4. vue/1. Vue 기초.md"
+    },
+    {
+      "basename": "3. Vue 라우터",
+      "path": "08 프론트엔드/4. vue/3. Vue 라우터.md"
+    },
+    {
+      "basename": "optional",
+      "path": "04 백엔드/정리/기타/optional.md"
+    },
+    {
+      "basename": "채팅 기능 구현",
+      "path": "04 백엔드/정리/기능구현/채팅 기능 구현.md"
+    },
+    {
+      "basename": "4. Vue 라이브러리",
+      "path": "08 프론트엔드/4. vue/4. Vue 라이브러리.md"
+    },
+    {
+      "basename": "2. Vue 기능",
+      "path": "08 프론트엔드/4. vue/2. Vue 기능.md"
+    },
+    {
+      "basename": "6. JS 폼테크",
+      "path": "08 프론트엔드/3. JS WEB/6. JS 폼테크.md"
+    },
+    {
+      "basename": "5. JS 기능",
+      "path": "08 프론트엔드/3. JS WEB/5. JS 기능.md"
+    },
+    {
+      "basename": "3. JS 셀렉터",
+      "path": "08 프론트엔드/3. JS WEB/3. JS 셀렉터.md"
+    },
+    {
+      "basename": "1. JS 원칙",
+      "path": "08 프론트엔드/3. JS WEB/1. JS 원칙.md"
+    },
+    {
+      "basename": "2. JS 문법",
+      "path": "08 프론트엔드/3. JS WEB/2. JS 문법.md"
+    },
+    {
+      "basename": "무제",
+      "path": "기타/무제.md"
+    },
+    {
+      "basename": "ajax",
+      "path": "04 백엔드/스프링/02. controller/ajax.md"
+    },
+    {
+      "basename": "05. 스프링과 ajax",
+      "path": "04 백엔드/스프링/02. controller/05. 스프링과 ajax.md"
+    },
+    {
+      "basename": "1. 기초",
+      "path": "08 프론트엔드/5. vuetify/1. 기초.md"
+    },
+    {
+      "basename": "7. JS Ajax",
+      "path": "08 프론트엔드/3. JS WEB/7. JS Ajax.md"
+    },
+    {
+      "basename": "2. String 복습",
+      "path": "03 자바/자료구조/정리/자료구조 코드 정리/2. String 복습.md"
+    },
+    {
+      "basename": "게시판 서비스",
+      "path": "04 백엔드/정리/기능구현/게시판 서비스.md"
+    },
+    {
+      "basename": "인증 메일 구현",
+      "path": "04 백엔드/정리/기능구현/인증 메일 구현.md"
+    },
+    {
+      "basename": "조회수 기능",
+      "path": "04 백엔드/정리/기능구현/조회수 기능.md"
+    },
+    {
+      "basename": "AWS s3 구현",
+      "path": "04 백엔드/정리/기능구현/AWS s3 구현.md"
+    },
+    {
+      "basename": "05. Css 레이아웃",
+      "path": "08 프론트엔드/1. html, css/05. Css 레이아웃.md"
+    },
+    {
+      "basename": "01. 이론",
+      "path": "08 프론트엔드/nginx/01. 이론.md"
+    }
+  ],
+  "omittedPaths": []
+}

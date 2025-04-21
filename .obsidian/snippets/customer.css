@@ -1,0 +1,119 @@
+/* 전체 노트 스타일링 */
+.markdown-reading-view, .markdown-source-view {
+    font-family: 'Inter', 'Noto Sans KR', sans-serif; /* 깔끔한 폰트 */
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 100% !important; /* 전체 너비 사용 */
+    padding: 30px; /* Word-like 여백 */
+}
+
+/* 헤더 스타일링 (H1, H2, H3 등) */
+h1, h2, h3, h4, h5, h6 {
+    color: #1f2937; /* 진한 회색 */
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+h1 { font-size: 2rem; border-bottom: 2px solid #6164ff; padding-bottom: 0.3rem; } /* 강조선 */
+h2 { font-size: 1.5rem; color: #6164ff; } /* 포인트 컬러 */
+h3 { font-size: 1.25rem; }
+
+/* 코드 블록 스타일링 (개발자 노트 핵심) */
+pre, code {
+    background-color: #1e293b; /* 다크 코드 배경 */
+    color: #e2e8f0; /* 밝은 텍스트 */
+    border-radius: 6px;
+    font-family: 'Fira Code', 'Consolas', monospace; /* 코딩 폰트 */
+    padding: 0.2rem 0.4rem; /* 인라인 코드 */
+}
+pre {
+    padding: 1rem;
+    overflow-x: auto; /* 긴 코드 스크롤 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+pre code {
+    padding: 0; /* pre 내부 code 패딩 제거 */
+}
+
+/* 코드 블록 내 키워드 강조 (Prism.js 스타일 참고) */
+.language-js .token.keyword { color: #ff79c6; }
+.language-js .token.string { color: #f1fa8c; }
+.language-js .token.function { color: #50fa7b; }
+.language-css .token.property { color: #8be9fd; }
+.language-html .token.tag { color: #ff5555; }
+
+/* 리스트 스타일링 */
+ul, ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+ul li { list-style-type: disc; }
+ol li { list-style-type: decimal; }
+li { margin-bottom: 0.5rem; }
+
+/* 테이블 스타일링 (정리된 데이터용) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+th, td {
+    border: 1px solid #e5e7eb;
+    padding: 0.75rem;
+    text-align: left;
+}
+th {
+    background-color: #6164ff;
+    color: #fff;
+    font-weight: 600;
+}
+tr:nth-child(even) { background-color: #f1f5f9; }
+
+/* 인용문 (중요 개념 강조) */
+blockquote {
+    border-left: 4px solid #6164ff;
+    background-color: #f1f5f9;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+/* 링크 스타일링 */
+a {
+    color: #6164ff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+a:hover { color: #4f46e5; }
+
+/* 태스크 리스트 (할 일 정리) */
+.task-list-item input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+.task-list-item { margin-bottom: 0.5rem; }
+
+/* 반응형 디자인 (작은 화면 대응) */
+@media (max-width: 600px) {
+    .markdown-reading-view, .markdown-source-view {
+        padding: 15px;
+        font-size: 14px;
+    }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.25rem; }
+    table { font-size: 12px; }
+}
+
+/* 캘아웃(Callout) 스타일링 (옵시디언 플러그인용) */
+.callout {
+    background-color: #f1f5f9;
+    border-left: 4px solid #6164ff;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+.callout-title {
+    color: #6164ff;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}

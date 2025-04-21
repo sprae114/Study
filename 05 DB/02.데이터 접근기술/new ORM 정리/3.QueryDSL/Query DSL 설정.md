@@ -1,1 +1,0 @@
-[[Querydsl] Spring Boot에서 Querydsl 설정하는 법 :: Gyun's 개발일지 (tistory.com)](https://devlog-wjdrbs96.tistory.com/396)

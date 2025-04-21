@@ -1,0 +1,1 @@
+[MySQL slow query 를 효율적으로 이용해보자! | MINSQL](http://minsql.com/mysql/MySQL-slow-query-%EB%A5%BC-%ED%9A%A8%EC%9C%A8%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%9D%B4%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90/)

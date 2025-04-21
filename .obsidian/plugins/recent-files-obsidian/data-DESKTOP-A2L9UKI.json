@@ -1,0 +1,205 @@
+{
+  "recentFiles": [
+    {
+      "basename": "CH3 유저 정의와 관리",
+      "path": "04 백엔드/정리/유데미/CH3 유저 정의와 관리.md"
+    },
+    {
+      "basename": "무제 파일 1",
+      "path": "04 백엔드/스프링시큐리티/무제 파일 1.md"
+    },
+    {
+      "basename": "CH1 소개 및 개요",
+      "path": "04 백엔드/정리/유데미/CH1 소개 및 개요.md"
+    },
+    {
+      "basename": "CH2 기본 보안 설정 변경",
+      "path": "04 백엔드/정리/유데미/CH2 기본 보안 설정 변경.md"
+    },
+    {
+      "basename": "멀티 모듈 기초",
+      "path": "04 백엔드/정리/멀티모듈/멀티 모듈 기초.md"
+    },
+    {
+      "basename": "멀티 모듈 심화(미)",
+      "path": "04 백엔드/정리/멀티모듈/멀티 모듈 심화(미).md"
+    },
+    {
+      "basename": "RealProject",
+      "path": "04 백엔드/정리/멀티모듈/RealProject.md"
+    },
+    {
+      "basename": "운영 분리",
+      "path": "04 백엔드/정리/멀티모듈/운영 분리.md"
+    },
+    {
+      "basename": "CH10 메소드 레벨 보안",
+      "path": "04 백엔드/정리/유데미/CH10 메소드 레벨 보안.md"
+    },
+    {
+      "basename": "CH9 JSON Web Token (JWT)를 사용한 토큰 기반 인증",
+      "path": "04 백엔드/정리/유데미/CH9 JSON Web Token (JWT)를 사용한 토큰 기반 인증.md"
+    },
+    {
+      "basename": "CH8 Spring Security에서 직접 커스텀 필터 작성하기",
+      "path": "04 백엔드/정리/유데미/CH8 Spring Security에서 직접 커스텀 필터 작성하기.md"
+    },
+    {
+      "basename": "CH7 Authorization (권한부여, 인가)의 개념 이해 및 구현",
+      "path": "04 백엔드/정리/유데미/CH7 Authorization (권한부여, 인가)의 개념 이해 및 구현.md"
+    },
+    {
+      "basename": "CH6 CORS와 CSR",
+      "path": "04 백엔드/정리/유데미/CH6 CORS와 CSR.md"
+    },
+    {
+      "basename": "10. 시큐리티 정리",
+      "path": "04 백엔드/스프링시큐리티/10. 시큐리티 정리.md"
+    },
+    {
+      "basename": "03. POST 매핑 (실무)",
+      "path": "04 백엔드/스프링/02. controller/03. POST 매핑 (실무).md"
+    },
+    {
+      "basename": "CH5 Authentication Provider (인증 제공자) 설명 및 구현",
+      "path": "04 백엔드/정리/유데미/CH5 Authentication Provider (인증 제공자) 설명 및 구현.md"
+    },
+    {
+      "basename": "CH4 PasswordEncoders를 이용한 비밀번호 관리",
+      "path": "04 백엔드/정리/유데미/CH4 PasswordEncoders를 이용한 비밀번호 관리.md"
+    },
+    {
+      "basename": "시큐리티 지식 테스트",
+      "path": "04 백엔드/스프링시큐리티/시큐리티 지식 테스트.md"
+    },
+    {
+      "basename": "01. DB 연결 설정",
+      "path": "05 DB/02.데이터 접근기술/데이터 접근 기술/01. DB 연결 설정.md"
+    },
+    {
+      "basename": "05. 스프링과 ajax",
+      "path": "04 백엔드/스프링/02. controller/05. 스프링과 ajax.md"
+    },
+    {
+      "basename": "4. JS 이벤트",
+      "path": "08 프론트엔드/3. JS WEB/4. JS 이벤트.md"
+    },
+    {
+      "basename": "5. JS 기능",
+      "path": "08 프론트엔드/3. JS WEB/5. JS 기능.md"
+    },
+    {
+      "basename": "6. JS 폼테크",
+      "path": "08 프론트엔드/3. JS WEB/6. JS 폼테크.md"
+    },
+    {
+      "basename": "3. JS 셀렉터",
+      "path": "08 프론트엔드/3. JS WEB/3. JS 셀렉터.md"
+    },
+    {
+      "basename": "2. JS 문법",
+      "path": "08 프론트엔드/3. JS WEB/2. JS 문법.md"
+    },
+    {
+      "basename": "1. JS 원칙",
+      "path": "08 프론트엔드/3. JS WEB/1. JS 원칙.md"
+    },
+    {
+      "basename": "3. JQuery",
+      "path": "08 프론트엔드/4. JS library/3. JQuery.md"
+    },
+    {
+      "basename": "10. JS 비동기",
+      "path": "08 프론트엔드/3. JS WEB/10. JS 비동기.md"
+    },
+    {
+      "basename": "9. JS 애니메이션",
+      "path": "08 프론트엔드/3. JS WEB/9. JS 애니메이션.md"
+    },
+    {
+      "basename": "8. JS 쿠키",
+      "path": "08 프론트엔드/3. JS WEB/8. JS 쿠키.md"
+    },
+    {
+      "basename": "자바스크립트 정리",
+      "path": "08 프론트엔드/2. JS/자바스크립트 정리.md"
+    },
+    {
+      "basename": "1. 자바스크립트",
+      "path": "08 프론트엔드/2. JS/1. 자바스크립트.md"
+    },
+    {
+      "basename": "메시지, 국제화",
+      "path": "04 백엔드/스프링/10. 메시지, 국제화/메시지, 국제화.md"
+    },
+    {
+      "basename": "01. 스프링 시큐리티 필터",
+      "path": "04 백엔드/스프링시큐리티/01. 스프링 시큐리티 필터.md"
+    },
+    {
+      "basename": "00. 시큐리티 이론지식",
+      "path": "04 백엔드/스프링시큐리티/00. 시큐리티 이론지식.md"
+    },
+    {
+      "basename": "JWT",
+      "path": "04 백엔드/스프링시큐리티/JWT.md"
+    },
+    {
+      "basename": "07. 스프링이 지원하는 로그인 방식들",
+      "path": "04 백엔드/스프링시큐리티/07. 스프링이 지원하는 로그인 방식들.md"
+    },
+    {
+      "basename": "2. MySQL 락",
+      "path": "05 DB/01.DB/3.락/2. MySQL 락.md"
+    },
+    {
+      "basename": "2. 스프링과 트랜잭션",
+      "path": "05 DB/01.DB/4.트랜잭션/2. 스프링과 트랜잭션.md"
+    },
+    {
+      "basename": "패컴 강의 정리",
+      "path": "05 DB/03. ORM/1.ORM/패컴 강의 정리.md"
+    },
+    {
+      "basename": "OAUTH 흐름",
+      "path": "04 백엔드/스프링시큐리티/OAUTH 흐름.md"
+    },
+    {
+      "basename": "09. 세션관리 및 접근 제한",
+      "path": "04 백엔드/스프링시큐리티/09. 세션관리 및 접근 제한.md"
+    },
+    {
+      "basename": "08. 세션",
+      "path": "04 백엔드/스프링시큐리티/08. 세션.md"
+    },
+    {
+      "basename": "06. DB와 연동하기",
+      "path": "04 백엔드/스프링시큐리티/06. DB와 연동하기.md"
+    },
+    {
+      "basename": "05. 두개의 SpringSecurity",
+      "path": "04 백엔드/스프링시큐리티/05. 두개의 SpringSecurity.md"
+    },
+    {
+      "basename": "04. Basic 토큰",
+      "path": "04 백엔드/스프링시큐리티/04. Basic 토큰.md"
+    },
+    {
+      "basename": "03. 로그인 직접 구현해보기",
+      "path": "04 백엔드/스프링시큐리티/03. 로그인 직접 구현해보기.md"
+    },
+    {
+      "basename": "02. 기본 로그인 처리",
+      "path": "04 백엔드/스프링시큐리티/02. 기본 로그인 처리.md"
+    },
+    {
+      "basename": "WebSecurityConfigurerAdapter 변경",
+      "path": "04 백엔드/스프링시큐리티/WebSecurityConfigurerAdapter 변경.md"
+    },
+    {
+      "basename": "8. 도커컴포즈",
+      "path": "06 서버/도커/8. 도커컴포즈.md"
+    }
+  ],
+  "omittedPaths": []
+}

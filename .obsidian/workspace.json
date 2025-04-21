@@ -1,22 +1,24 @@
 {
   "main": {
-    "id": "600f128bf4b872ef",
+    "id": "3efb023bb621d799",
     "type": "split",
     "children": [
       {
-        "id": "feb1123ba9356d00",
+        "id": "7146d6bcab399d93",
         "type": "tabs",
         "children": [
           {
-            "id": "d68b106b2008ab38",
+            "id": "48a9662d58b5041f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07 CS지식/네트워크/IP할당.md",
+                "file": "10 etc/정리법.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "정리법"
             }
           }
         ]
@@ -25,25 +27,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ef520534a4e9cb8c",
+    "id": "7c4858cd0969d7cc",
     "type": "split",
     "children": [
       {
-        "id": "bca112cade88addd",
+        "id": "b6a30dddd5feeb7a",
         "type": "tabs",
         "children": [
           {
-            "id": "18d15e2a7c089e61",
+            "id": "e7334645d2e6142f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
-            "id": "ec76462f5ef83aca",
+            "id": "f5c1d349647a5aba",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,99 +59,95 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
-            "id": "fdfdaa4960fa6e06",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "f949cf711c4b2960",
+            "id": "5fc86088a60c02db",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          },
+          {
+            "id": "bb2675bab006789f",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 300
   },
   "right": {
-    "id": "256c09519ac7e992",
+    "id": "28857f96a7160b06",
     "type": "split",
     "children": [
       {
-        "id": "b232e961dd413024",
+        "id": "60d1bbbb8a29b41f",
         "type": "tabs",
         "children": [
           {
-            "id": "51c83e4996dce40b",
+            "id": "a9d0ce6fe22c0523",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07 CS지식/네트워크/IP할당.md",
-                "collapseAll": false,
+                "file": "기타/자소서/자소서 템플릿.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "자소서 템플릿 의 백링크"
             }
           },
           {
-            "id": "bb6cff3e897114ad",
+            "id": "d216a37479250517",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07 CS지식/네트워크/IP할당.md",
+                "file": "기타/자소서/자소서 템플릿.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "자소서 템플릿 의 나가는 링크"
             }
           },
           {
-            "id": "9b624ee9e1b775c4",
+            "id": "abd111537ce74f5b",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
             }
           },
           {
-            "id": "2d9594e90577d66c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "07 CS지식/네트워크/IP할당.md"
-              }
-            }
-          },
-          {
-            "id": "89f5ed820b8dae45",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "62df617428919cb4",
+            "id": "57e1fc2454a6507e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -154,74 +155,90 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화돼있지 않음"
+            }
+          },
+          {
+            "id": "4fa8a12588fdebe6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "10 etc/정리법.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "정리법 의 개요"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
+      "switcher:빠른 전환기 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "remotely-save:Remotely Save": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d68b106b2008ab38",
+  "active": "e7334645d2e6142f",
   "lastOpenFiles": [
-    "07 CS지식/네트워크/서브넷.md",
-    "06 서버/AWS/아마존 웹 서비스 AWS 1.md",
-    "06 서버/AWS/AWS로 시작하는 인프라 구축의 정석 1.md",
-    "06 서버/AWS/오류 정리.md",
-    "06 서버/AWS/미정리2.md",
-    "06 서버/AWS/06. 여러 EC2.md",
-    "07 CS지식/네트워크/IP할당.md",
-    "06 서버/AWS/08. RDS.md",
-    "06 서버/AWS/미정리.md",
-    "06 서버/AWS/무제 파일 1.md",
-    "06 서버/AWS/무제 파일.md",
-    "07 CS지식/네트워크/01. IP, TCP.md",
-    "document_image/Pasted image 20240211161257.png",
-    "document_image/Pasted image 20240226155404.png",
-    "document_image/Pasted image 20240226155244.png",
-    "document_image/Pasted image 20240226155159.png",
-    "document_image/Pasted image 20240226155154.png",
-    "document_image/Pasted image 20240226155147.png",
-    "document_image/Pasted image 20240226154957.png",
-    "document_image/Pasted image 20240226154950.png",
-    "document_image/Pasted image 20240226154931.png",
-    "document_image/Pasted image 20240226154836.png",
-    "07 CS지식/네트워크/02. HTTP.md",
-    "06 서버/AWS/05. 단일 EC2 자동화.md",
-    "06 서버/AWS/04. 단일 EC2.md",
-    "06 서버/AWS/03. EC2 명령어 정리.md",
-    "06 서버/AWS/02. 리눅스 명령어 정리.md",
-    "06 서버/AWS/01. AWS 이론.md",
-    "07 CS지식/Git/git.md",
-    "07 CS지식/추천 강의및 도서.md",
-    "07 CS지식/Git/GitFlow 정리.md",
-    "06 서버/미정리/AWS로 시작하는 인프라 구축의 정석.md",
-    "06 서버/미정리/아마존 웹 서비스 AWS.md",
-    "06 서버/미정리/스프링 부트와 AWS로 혼자 구현하는 웹서비스.md",
-    "06 서버/미정리/나중에 정리할 내용들.md",
-    "03 자바/정리/자바",
-    "03 자바/정리/디자인패턴",
-    "03 자바/정리/객체지향",
-    "06 서버/책/aws로 구현하는 CL✖CD 배포 입문 1.md~RF40858932.TMP",
-    "06 서버/책/무제 폴더",
-    "06 서버/정리/도커/미정리",
-    "06 서버/미정리",
-    "06 서버/도커",
-    "04 백엔드/스프링/로그인 처리/03. JWT",
-    "04 백엔드/스프링/로그인 처리/02. OAUTH"
+    "10 etc/정산 에세이.md",
+    "10 etc/참고 사이트.md",
+    "10 etc/intellij-단축키-windows.pdf",
+    "10 etc/intellij-단축키-mac.pdf",
+    "09 AlgorithmStudy/알고리즘/DFS & 백트래킹/개념 정리.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 9.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 8.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 7.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 6.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 5.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 4.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 3.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 2.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 17.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 16.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 15.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 14.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 13.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 12.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 11.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 10.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용/무제 1.md",
+    "08 frontend/codingApple/타입스크립트/Part 1  꼭 알아야할 내용/무제 9.md",
+    "08 frontend/codingApple/타입스크립트/Part 1  꼭 알아야할 내용/무제 8.md",
+    "08 frontend/codingApple/타입스크립트/Part 1  꼭 알아야할 내용/무제 7.md",
+    "08 frontend/codingApple/타입스크립트/Part 1  꼭 알아야할 내용/무제 6.md",
+    "08 frontend/codingApple/타입스크립트/Part 1  꼭 알아야할 내용/무제 5.md",
+    "08 frontend/codingApple/타입스크립트/Part 1  꼭 알아야할 내용/무제 4.md",
+    "08 frontend/codingApple/타입스크립트/Part 2  알면 도움은 되는 내용",
+    "08 frontend/codingApple/타입스크립트/Part 1  꼭 알아야할 내용",
+    "08 frontend/codingApple/Vue.js 3 완벽 가이드/Part 3  인스타그램 만들기",
+    "08 frontend/codingApple/Vue.js 3 완벽 가이드/Part 2  blog 레이아웃과 라우터",
+    "08 frontend/codingApple/Vue.js 3 완벽 가이드/Part 1  부동산 쇼핑몰",
+    "08 frontend/codingApple/React 리액트 기초부터 쇼핑몰 프로젝트까지!/Part 2  쇼핑몰 프로젝트",
+    "08 frontend/codingApple/React 리액트 기초부터 쇼핑몰 프로젝트까지!/Part 1  블로그 제작 & 기초 문법",
+    "08 frontend/codingApple/JavaScript 객체지향 & ES6 신문법/level3",
+    "10 etc/정리/html/02. 기호 의미.JPG",
+    "10 etc/정리/html/01. HTML 태그 종류 총모음.JPG",
+    "10 etc/정리/jquery/10. 제이쿼리 함수를 → 자바스크립트로 구현 (모음집).JPG",
+    "10 etc/정리/jquery/09. jQuery 요소 인덱스(index) 넘버 구하기.JPG",
+    "10 etc/정리/jquery/08. $.getScript() 동적 스크립트 로딩 사용법.JPG",
+    "10 etc/정리/jquery/07. 제이쿼리 AJAX 요청 문법 정리.JPG",
+    "10 etc/정리/jquery/06. 제이쿼리 이벤트 종류 & 설정 총정리.JPG",
+    "10 etc/정리/jquery/05. 제이쿼리 메소드 종류 총정리.JPG",
+    "10 etc/정리/jquery/03. 자바스크립트 this vs 제이쿼리 $(this) 차이.JPG",
+    "10 etc/정리/jquery/04. 제이쿼리 선택자(Selector) 종류 총정리.JPG"
   ]
 }

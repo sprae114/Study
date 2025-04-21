@@ -1,8 +1,8 @@
 {
+  "theme": "moonstone",
   "cssTheme": "Things",
-  "baseFontSize": 26,
-  "accentColor": "#aebce5",
-  "interfaceFontFamily": "Arial Black",
-  "theme": "obsidian",
-  "monospaceFontFamily": ""
+  "enabledCssSnippets": [
+    "customer"
+  ],
+  "nativeMenus": false
 }
